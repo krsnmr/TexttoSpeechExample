@@ -1,0 +1,4 @@
+<resources>
+	<string name="app_name">Text to Speech Example</string>
+	<string name="hint_text_to_speech">Текст для воспроизведения</string>
+</resources>
