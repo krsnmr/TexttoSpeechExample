@@ -14,4 +14,12 @@ public class ExampleUnitTest {
 	public void addition_isCorrect() {
 		assertEquals(4, 2 + 2);
 	}
+
+	@Test
+	public void splitText() {
+		String text="егулярные выражения.позволяют задавать и гораздо. более сложные шаблоны.поиска или замены.";
+		String[] ar = text.split("\\.");
+		assertEquals(4, ar.length);
+		assertEquals(ar[3], "поиска или замены");
+	}
 }
